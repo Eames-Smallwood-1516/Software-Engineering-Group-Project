@@ -27,6 +27,7 @@
 ## Location
 
 ### Q: Where are the two locations?
+### Q: Besides the tool library, are there any other separate locations in your system (i.e. multiple for books)?
 
 ## Database Schema
 
@@ -41,5 +42,17 @@
 
 ### Q: Are checkouts renewable?
 
-### Q: 
+### Q: Is there any insurance waiver or other documentation signed at checkout
+
+### Q : Is there a limit to the amount of books/tools a person can be lent at a given time? If so, what are those limits?
+
+### Q: How does the library calculate late fees if someone checks out a book but turns it in late? How does this work for tools?
+
+### Q: What if someone fails to return a lent item at all? Are they charged? Does this affect their ability to check items out?
+
+### Q: You say checkouts are UP TO two weeks. Is there a minimum lending period? (e.g. a day)
+
+### Q: Are there any age-restrictions for the tools or certain books we need to be aware of?
+
+### Q: How does the library handle scenarios where a book or tool is returned but damaged?
 
