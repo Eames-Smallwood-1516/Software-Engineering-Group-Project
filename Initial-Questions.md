@@ -6,6 +6,15 @@
   
 # Tool Lending Library Questions
 
+## Primary Goals
+
+### Q: Is the primary goal to create a system to support a new Tool Library, or does the existing library system need development?
+
+### Q: What timeline do you have for this project?
+
+### Q: What budget exists for this project?
+
+
 ## Existing Systems
 
 ### Q: How are library members and their cards currently validated?
@@ -21,12 +30,11 @@
 
 ### Q: How many people do you anticipate to use the tool library?
 
-### Q: What budget exists for this project?
-
 
 ## Location
 
 ### Q: Where are the two locations?
+
 ### Q: Besides the tool library, are there any other separate locations in your system (i.e. multiple for books)?
 
 ## Database Schema
