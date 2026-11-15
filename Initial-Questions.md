@@ -6,6 +6,8 @@
   
 # Tool Lending Library Questions
 
+# Initial Questions
+
 ## Primary Goals
 
 ### Q: Is the primary goal to create a system to support a new Tool Library, or does the existing library system need development?
@@ -81,3 +83,16 @@ Tools can only be borrowed by patrons 18 and over.
 ### A: 
 We'll track damage and loss on a per-borrower basis. This should be viewable by the clerk doing the checkout, but generally we're not worried about deliberate damage to tools.
 
+# Follow up Question
+
+### Q: You say you'd like to ID users before they check out. What forms of ID are valid?
+### A: 
+Right now a driver license or other photo ID. This might be subject to change, but the librarian overseeing the ### checkout will know the latest policy.
+
+### Q: So what information is associated with their card exactly? Name, birthday, ID number, etc?
+### A: 
+The library card API has their name, phone, address, email, and library card number.
+
+### Q: So, does one electronic waiver cover all future borrowings then, or just one? Is there an expiration date on ### waivers?
+### A: 
+One waiver covers all the borrowing. There's no expiration, but if a new waiver is ever required, the patron should be re-prompted to accept it.
