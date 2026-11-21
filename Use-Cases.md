@@ -39,3 +39,58 @@ Tool Inventory item status' updated to `Checked Out`
     5b2. System saves a timestamped, versioned signature to cloud storage and proceeds to step 6.
 6a. (Cathy Scenario) Patron attempts to borrow more than 5 tools
     6a1. System rejects the 6th scan and alerts clerk that the 5 tool limit has been reached.
+
+### UC-02: Return / Check in Tools and Assesses Fees
+#### Primary Actor:
+
+#### Preconditions
+
+### Postconditions
+
+#### Primary Success Path
+
+#### Extensions
+
+### UC-03: Browse Catalog and Place/Extend Holds
+#### Primary Actor:
+
+#### Preconditions
+
+### Postconditions
+
+#### Primary Success Path
+
+#### Extensions
+
+### UC-04: Process Expired Holds
+#### Primary Actor:
+
+#### Preconditions
+
+### Postconditions
+
+#### Primary Success Path
+
+#### Extensions
+
+### UC-05: Add New or Donated Items to Inventory
+#### Primary Actor:
+
+#### Preconditions
+
+### Postconditions
+
+#### Primary Success Path
+
+#### Extensions
+
+### UC-06: Audit and Reconcile Inventory Records
+#### Primary Actor:
+
+#### Preconditions
+
+### Postconditions
+
+#### Primary Success Path
+
+#### Extensions
