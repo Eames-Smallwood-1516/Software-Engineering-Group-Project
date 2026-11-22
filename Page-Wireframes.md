@@ -1,8 +1,8 @@
-﻿# Tool Lending Library Page Wireframes
+﻿## Tool Lending Library Page Wireframes
 
 These low-fidelity layouts cover every page in the [UX Flow](UX-Flow.md). Brackets indicate controls. Error and confirmation messages appear on the page where the action occurred.
 
-## P1 · Tool catalog
+### P1 · Tool catalog
 
 ```text
  TOOL LENDING LIBRARY                              [View a hold]
@@ -17,7 +17,7 @@ These low-fidelity layouts cover every page in the [UX Flow](UX-Flow.md). Bracke
  No matches: Change filters or try a different search.
 ```
 
-## P2 · Tool details
+### P2 · Tool details
 
 ```text
  [Back to catalog]
@@ -33,7 +33,7 @@ These low-fidelity layouts cover every page in the [UX Flow](UX-Flow.md). Bracke
 
 When no copy is available, show the current availability and a link back to search.
 
-## P3 · Place hold
+### P3 · Place hold
 
 ```text
  [Back to tool details]
@@ -49,7 +49,7 @@ When no copy is available, show the current availability and a link back to sear
 
 Use the same status area if the copy becomes unavailable or the patron has reached a hold limit. A successful request opens P4.
 
-## P4 · View or extend hold
+### P4 · View or extend hold
 
 ```text
  HOLD CONFIRMED · HEDGE TRIMMER
@@ -63,7 +63,7 @@ Use the same status area if the copy becomes unavailable or the patron has reach
 
 Show the revised deadline after an extension. Show the reason when an extension is unavailable. An expired hold displays its status and a link back to the catalog. The catalog's **View a hold** entry assumes a hold lookup or hold-specific link.
 
-## S1 · Staff dashboard
+### S1 · Staff dashboard
 
 ```text
  TOOL LIBRARY STAFF                         Location [Tool Library v]
@@ -72,7 +72,7 @@ Show the revised deadline after an extension. Show the reason when an extension 
  [Find patron]          [Manage inventory]
 ```
 
-## S2 · Patron lookup and verification
+### S2 · Patron lookup and verification
 
 ```text
  [Dashboard]  CHECKOUT · FIND PATRON
@@ -91,7 +91,7 @@ Show the revised deadline after an extension. Show the reason when an extension 
 
 Manual search locates a patron record for staff verification. Display the reason if the card, age, or tool borrowing status prevents checkout. If the waiver is missing or outdated, continue to S3.
 
-## S3 · Waiver
+### S3 · Waiver
 
 ```text
  [Back to verification]
@@ -110,7 +110,7 @@ Manual search locates a patron record for staff verification. Display the reason
 
 Store the signed record with the version of the waiver the patron accepted. Prompt again when a new version is required.
 
-## S4 · Checkout
+### S4 · Checkout
 
 ```text
  [Dashboard]  CHECKOUT · PAUL EXAMPLE
@@ -126,7 +126,7 @@ Store the signed record with the version of the waiver the patron accepted. Prom
 
 Show a copy-specific error if a barcode is invalid, the copy is unavailable to this patron, or the selection would exceed the five-tool limit.
 
-## S5 · Return
+### S5 · Return
 
 ```text
  [Dashboard]  RETURN
@@ -145,7 +145,7 @@ Show a copy-specific error if a barcode is invalid, the copy is unavailable to t
 
 If the barcode is missing or fails to match an active loan, show an error and keep the loan open. Record reported damage on the patron history and update the copy status after return.
 
-## S6 · Inventory
+### S6 · Inventory
 
 ```text
  [Dashboard]  INVENTORY                           [Add tool]
@@ -157,7 +157,7 @@ If the barcode is missing or fails to match an active loan, show an error and ke
  T-221      Circular saw      Tool Library   Available    [Edit]
 ```
 
-## S7 · Add or edit tool
+### S7 · Add or edit tool
 
 ```text
  [Back to inventory]  ADD OR EDIT TOOL
@@ -175,7 +175,7 @@ If the barcode is missing or fails to match an active loan, show an error and ke
 
 For donations, record the working-condition check during intake. Show validation errors beside the relevant fields so staff can correct them before saving.
 
-## S8 · Patron record
+### S8 · Patron record
 
 ```text
  [Dashboard]  PATRON RECORD
