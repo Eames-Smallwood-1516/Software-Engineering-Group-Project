@@ -8,8 +8,9 @@ The document is broken up into the follow sections in this order:
 2. Non-goals
 3. Use case diagram
 4. Use cases
-5. UX Flox
+5. UX Flow
 6. User Screens
+
 
 ## User Scenarios for Tool Library
 
@@ -68,7 +69,30 @@ Saul Goodman is the legal council of a user who was injured using a tool incorre
 Rick is a bit of a nuisance. He rarely actually uses the tool library, but he does extensively use holds in the catalog, in fact Rick is the reason the library staff found that that despite only being able to borrow five tools, the system originally allowed for reservations up to sixteen items. Fortunately for the community, V3 of the tool library and its catalog have terms of service to disallow for this exact behavior.
 To resolve this matter, a library clerk uses a escalating restriction of privileges; first they lower his hold limit down to just one item at a time. After they they lower the frequency of holds to only allow for one hold every week. Finally if they still exhibit the behavior of acquiring holds but never actually exercising those holds, the library staff can simply revoke his use of the tool library all together.
 
+
 ## Non-goals
+
+### Book Lending system
+The tool library system will not handle book lendings or returns. There is already a system in place for this.
+
+### Library Card System
+The Library already has an existing API for its Library Cards. Constructing a new system for this is unnecessary
+
+### Notification System
+The client already has a text/email notification system and has requested we integrate with it. This project will not construct a standalone system for this.
+
+### Library card scanning
+Library cards are entered manually, so any software related to scanning is out of scope for this project.
+
+### Automated Categorization
+Some tools are given different late fees based on their category, however this categorization is done manually. Any automated handling of categorization is outside of the scope.
+
+### ID Scanning, storage, verification
+Staff visually inspect the photo ID of a borrower at checkout. Library policy is to not store or scan, and ID verification is in-person at the desk. Any system handling photo ID verification is not within the scope of this project.
+
+### Mobile apps
+The client has specifically requested a customer-facing website with staff functionality. No native mobile apps are necessary.
+
 
 ## Use Case Diagram
 ```mermaid
@@ -162,6 +186,7 @@ flowchart LR
     UC01b --- WaiverSys
     UC04b --- EmailSys
 ```
+
 
 ## Use Cases
 ### Refer to `User-Scenarios.md` for narrative understanding of Use Cases
